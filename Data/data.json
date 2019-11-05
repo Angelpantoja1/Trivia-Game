@@ -1,0 +1,533 @@
+{
+    "borderlands1": [
+        {
+            "Q": "Borderlands is a first-person shooter video game set on a less-than-hospitable alien planet. What is the name of the planet?",
+            "a1": "Pandora",
+            "a2": "Aquator",
+            "a3": "Prometheus",
+            "a4": "Tannis",
+            "c": "Pandora"
+        },
+        {
+            "Q": "A common type of creature in the game is a four-legged beast with an upper jaw that splits its face open, which is the creature's weakest point in an otherwise armored body. One gets run over by a bus in the introduction, but don't worry - there are plenty more where that one came from. What are these creatures called?",
+            "a1":"Rakks",
+            "a2":"Spiderants",
+            "a3":"Scythids",
+            "a4":"Skags",
+            "c":"Answer)Skags"
+        },
+        {
+            "Q":"According to Gearbox, the developer of 'Borderlands', the random weapon system means that there are over 17,750,000 possible weapons in the game. Which are the alien energy weapons that do not use ammunition, but instead rely on a recharging energy source?",
+            "a1":"Maliwan",
+            "a2":"Eridian",
+            "a3": "Hyperion",
+            "a4":"Tediore",
+            "c":"Answer)Eridian"
+        },
+        {
+            "Q":"The 'autosave' feature of the game is accomplished by these devices, which sample and store your character's DNA in case of 'accidental death or dismemberment.' Fortunately when you are restored you respawn with all of your equipment and most of your wealth. What are these devices called?",
+            "a1":"Nuka-Cola Machines",
+            "a2":"New-U Stations",
+            "a3":"Medical Vending Machines",
+            "a4":"Medi-droids",
+            "c":"Answer) New-U Stations"
+        },
+        {
+            "Q":"Characters are limited in the number of items they can carry. Fortunately Backpack SDUs (Storage Deck Upgrades) are available by completing what type of missions?"
+            "Vehicle Races",
+            "Weapon Scavenger",
+            "Claptrap Rescue",
+            "Arena Combat",
+            "Answer) Claptrap Rescue"
+
+        },
+        {
+            
+            "Q":"There are many places to visit in 'Borderlands', most of which are arid wastelands. In fact, the first area of the game is named 'The Arid Badlands'. There are a few locations with water, however. Which of the following places does NOT have water?"
+            Jakobs Cove
+            Treacher's Landing
+            Deep Fathoms
+            Trash Coast
+            Answer) Deep Fathoms
+        },
+        {
+            "Q":"Q7)
+            "            One of the settlements the players eventually visit is New Haven. What happened to Old Haven?
+            Destroyed by nuclear weapons
+            Collapsed into the Underdome area
+            Nothing - there is no "Old Haven"
+            Occupied by the Crimson Lance
+            Answer)Occupied by the Crimson Lance
+        },
+        {
+            "Q":"Q8)
+            "            There are several vehicles that players can use in "Borderlands", but "The Secret Armory of General Knoxx" add-on introduced the only vehicle in the game that can be used by four players at once. What is the name of this four-person vehicle?
+            Outrunner
+            Lancer
+            Monster
+            Tank
+            Answer)Lancer
+        },
+        {
+            "Q":"Q9)
+            "            The object of "Borderlands" is to find the legendary "Vault" thought to hold a treasure trove of alien technology. The players eventually find the Vault, but what is inside?
+            A monster
+             A wormhole to the past
+             Nothing
+            A single mega-bomb
+            Answer) A Monster
+        },
+        {
+            "Q":"Q10)"
+            After finishing the storyline of "The Secret Armory of General Knoxx" add-on, the mission "You. Will. Die." becomes available for players to fight a "secret final boss." What is the name of this final challenge?
+            A)
+            Crawmerax
+             King Aracobb
+             Rakkinishu
+            Widowmaker
+            Answer)Crawmerax
+        },
+        {
+            "Q":"Q11)"
+            There are four characters that you can choose to play as in the game. Each one of them has their own special class. What is Brick's class?
+            A)
+            Soldier
+            Hunter
+            Berserker
+            Siren
+            Answer)Berserker
+        },
+        {
+            "Q":"Q12)"
+            After the release of "Borderlands", DLC was released to continue the "Borderlands" story. Like the story, the DLC featured more bosses. Which "Borderlands" DLC did not feature any bosses?
+            A)
+            "The Undead Island of Dr. Ned"
+             "ClapTrap's Robot Revolution"
+             "The Secret Armory of General Knoxx"
+            "Mad Moxxi's Underdome Riot"
+            Answer)Mad Moxxi's Underdome Riot"
+
+        },
+        {
+            "Q":"Q13)"
+            There are many strange things about "Borderlands" and some things just seem too weird to comprehend, such as this. Moxxi turns out to be the mother of whom?
+            A)
+            Scooter
+             Dr. Zed
+             Mordecai
+             Brick
+            Answer)scooter
+        },
+        {
+            "Q":"Q14)"
+            In the game, there are some guns that don't require ammo, but instead, have to recharge. What type of guns are these?
+            A)
+            Dahl
+             Tediore
+             Atlas
+             Eridian
+            Answer)eridian
+        },
+        {
+            "Q":"Q15)"
+            Each class has its own action move. Action moves are attacks that are more powerful than most attacks. What is Lilith's action move?
+            A)
+            Phasewalk
+            Beserk
+            Bloodwing
+            Scorpio Turret
+            Answer)Phasewalk
+
+        },
+        {
+            "Q":"Q16)"
+            "Borderlands" is filled with many bosses and semi-bosses. Who is the first boss you encounter in the game?
+            A)
+            Mad Mel
+             Sledge
+             Nine-Toes
+             Bone Shredder
+            Answer)Nine-Toes
+        },
+        {
+            "Q":"Q17)"
+            There are many guns in "Borderlands". Which gun type is not a usable gun in the game?
+            A)
+            Revolver
+             SMG
+             LMG
+             Missile Launcher
+            Answer)LMG
+        },
+        {
+            "Q":"Q18)"
+            Each character in "Borderlands" uses a unique melee weapon. Mordecai uses a machete, Roland uses a knife, and Lilith uses her powers. What does Brick use normally?
+            A)
+            An axe
+             His fists
+             A pipe
+             His weapon
+            Answer)A pipe
+        },
+        {
+            "Q":"Q19)"
+            Boss fights usually have very strong and deadly character for you to fight. Who is the final boss you face in the Borderlands story?
+            A)
+            The Warrior
+             MothRakk
+             Skagzilla
+             The Destroyer
+            Answer)The Destroyer
+        },
+        {
+            "Q":"Q20)"
+            What is the name of Mordecai's pet bird?
+            A)
+            Blodwing
+             Bloodwing
+             Hawkeye
+             Birdo
+            Answer)Bloodwing
+        },
+        {
+            "Q":"Q21)"
+            Which character says "I might not have a med-school degree, but when you get shot you'll be happy I'm here."?
+            A)
+            Dr. Ned
+             Scooter
+             Marcus Kincaid
+             Dr. Zed
+            Answer)Dr. Zed
+        },
+        {
+            "Q":"Q22)"
+            Who of the following characters sells things to you?
+            A)
+            All of these
+             Marcus Kincaid, Dr Zed and Scooter
+             Marcus Kincaid, Dr Zed and Crazy Earl
+             Marcus Kincaid and Dr Zed
+            Answer) Marcus Kincaid, Dr Zed and Crazy Earl
+        },
+        {
+            "Q":"Q23)"
+            who is the first voice you hear?
+            A)
+            Zero
+             Rhys
+             Marcus Kincaid
+             Fiona
+            Answer)Marcus
+        },
+        {
+            "Q":"Q24)"
+            Which character lost his wife, leg and eyesight to Scar?
+            A)
+            Dr. Patricia Tannis
+             Colonel T. Zarpedon
+             Angel
+             T.K. Baha
+            Answer)T.K. Baha
+        },
+        {
+            "Q":"Q25)""Only buy the best... if the Vault is real, you'll be able to afford it!"One of the characters players interact with the most when playing "Borderlands" is the weapons dealer. Whether in person or indirectly through his weapon and ammunition vending machines, players hear this character's voice a lot. Who is it?
+            Marcus Kincaid
+             Crazy Earl
+            Taylor Kobb
+             Chuck Durden
+    
+            Answer)
+        },
+        {
+            "Q":"Q26)"
+            "Nothing like a challenging kill."
+    
+            There are four player characters in the game, but my favorite is the Hunter, who specializes in sniper rifles to attack from a distance and pistols when enemies get closer. The Hunter's Action Skill is Bloodwing, a falcon-like pet that can attack enemies. What is the Hunter's name?
+            A)
+             Roland
+             Lilith
+             Mordecai
+             Brick
+            Answer)Mordecai
+        },
+        {
+            "Q":"Q27)"
+            "Wow! You're not dead?"
+    
+            These robots are found just about everywhere. Many are damaged, and repairing them can yield a good reward. Most are friendly and harmless, until one becomes an Interplanetary Ninja Assassin and attempt to lead a Robot Revolution to kill all the "fleshbags." What is the official designation for these robots?
+            A)
+             4-LOM
+             CL4P-TP
+             EV-9D9
+             I-5YQ
+            Answer)CL4P-TP
+        },
+        {
+            "Q":"Q28)"
+            "Hmm... smells like off-worlder. How are you liking our planet anyways?"
+    
+            One unfortunate character in the game starts off blind and missing a leg, and is later killed by bandits. If that wasn't enough, he's later turned into a zombie in one of the game's add-ons. Who is it?
+            A)
+             Stance Von Kofsky
+             Rade Zayben
+             T.K. Baha
+             Ernest Whitting
+            Answer)T.K. Baha
+        },
+        {
+            "Q":"Q29)"
+            "Not going away, huh? Must be a bounty hunter!"
+    
+            One enemy boss in the game is this bandit leader, more known for his strength than his brains. For example, his shotgun is named "Shotgun" and his hammer is named "Hammer". Who is this "creative" bad guy?
+            A)
+             Bone Head
+             Sledge
+             Nine Toes
+             One-Eyed Jack
+            Answer)sledge
+        },
+        {
+            "Q":"Q30)"
+            "This is where the cars live! Get you one!"
+    
+            The vehicles in the game and the Catch-A-Ride system are the responsibility of this mechanic, who has a very distinct way of speaking. But even though he's responsible, he does seem to need a lot of help from the players to find parts and make repairs. Who is this character?
+            A)
+             Lucky Zaford
+             Scooter
+             Jaynis Kobb
+             Whiskey Wesley
+            Answer)Scooter
+            
+        },
+        {
+            "Q":"Q31)"
+            "Incredible! Using your brain, and all the hurdles that implies, you have correctly identified a piece of the Vault key."
+    
+            In their quest for the Vault, the players need the help of this scientist who has been studying the alien ruins. Unfortunately, her time on the planet hasn't been easy and she's not quite sane anymore. Who is she?
+            A)
+             Helena Pierce
+             Ceresia
+             Minerva
+             Patricia Tannis
+            Answer)Patricia Tannis
+        },
+        {
+            "Q":"Q32)"
+            "Who needs a real doctor when you got my machines and their scary needles?"
+    
+            Dr. Ned may have gone a little overboard and created a whole island of zombies, but he is "totally not" the doctor from the original storyline. Sure he looks similar, but Dr. Ned has a mustache... on the outside of his surgical mask. What is the real doctor's name?
+            A)
+             Dr. Ted
+             Dr. Zed
+             Dr. Fred
+             Dr. Ed
+            Answer)Dr.Zed
+        },
+        {
+            "Q":"Q33)"
+            "Did I promise you a show, or didn't I? Who loves you, and who do you love?"
+    
+            This character is the hostess of The Underdome, and interacts directly with the players in another add-on, giving the players missions, such as to kill her ex-husband. What's her name?
+            A)
+             Hera
+             Aunty Entity
+             Mad Moxxi
+             Helicon
+            Answer)Mad Moxxi
+
+        },
+        {
+            "Q":"Q34)"
+            "You would've made a great soldier. It's a pity I didn't recruit you before now."
+    
+            An officer of the Crimson Lance, this career soldier is disillusioned with his military career since due to nepotism he reports to "Admiral Mikey", a 5-year old who sends him macaroni art and misspelled instructions written in crayon. Who is this depressed soldier?
+            A)
+             Commandant Steele
+             General Knoxx
+             Master McCloud
+             Baron Flynt
+            Answer)General Knoxx
+        },
+        {
+            "Q":"Q35)"
+            What is the name of the settlement where Scooter is encountered?What is the name of the settlement where Scooter is encountered?
+            A)
+            Old Haven
+            Fyrestone
+            Salt Flats
+            New Haven
+            Answer)New Haven
+        },
+        {
+            "Q":"Q36)"
+            what is the soldier class' name?
+            A)
+            Brick
+            Moredecai
+            Lilith
+            Roland
+            Answer)Roland
+        },
+        {
+            "Q":"Q37)"
+            What level do you have get to to get the Ding! Sleepless achievement?
+            A)
+            10
+            20
+            30
+            40
+            Answer)40
+        },
+        {
+            "Q":"Q38)"
+            What is the name of the alien race encountered in borderlands?
+            A)
+            Erodian
+            Eredian
+            Eridian
+            Eradian
+            Answer)Eridian
+        },
+        {
+            Q39)
+            What is the name of the skag that took T.K's leg?
+            A)
+            Scar
+            Skagzilla
+            Moe
+            Marley
+            Answer)Scar
+
+        },
+        {
+            "Q":"Q40)"
+            What is the name of the gun manufacturer that creates all power weapons?
+            A)
+            Vladof
+            Jakobs
+            S & S Munitions
+            Dahl
+            Answer)Jakobs
+        },
+        {
+            "Q":"Q41)"
+            What are the names of Nine-Toes pet skags?
+            A)
+            Moe & Marley
+            Scar & Slash
+            Pinky & Digit
+            Mutha & Fatha
+            Answer)Pinky & Digit
+        },
+        {
+            "Q":"Q42)"
+            What is the name of the robot that helps you at the beginning of the game?
+            A)
+            Shutter Box
+            Yak Trap
+            Clap Trap
+            Natter Head
+        },
+        {
+            "Q":"Q43)"
+            What is Mordecai's special skill?
+            A)
+            Berserk
+            Phasewalk
+            Bloodwing
+            Scorpio Turret
+            Answer)Bloodwing
+        },
+        {
+            "Q":"Q44)"
+            What weapon do you start with at the beginning of the game?
+            A)
+            Rocket Laucher
+            Pistol
+            Nothing
+            Grenade
+            Answer)nothing
+        },
+        {
+            
+            "Q":"Q45)"
+            How many characters are there to choose from?
+            A)
+            2
+            5
+            4
+            9
+            Answer)4
+
+        },
+        {
+            "Q":"Q46)"
+            How many toes does the first boss have?
+            A)
+            10
+            5
+            9
+            2
+            Answer)9
+        },
+        {
+            
+            
+            "Q":"Q47)"
+            How many Balls does nine-toes have?
+            A)
+            2
+            4
+            3
+            1
+            Answer)3
+
+        },
+        {
+            "Q":"Q48)"
+            What are the shift codes used for?
+            A)
+            To obtain golden Keys
+            To obtain better gear
+            To obtain more cash
+            To obtain special skins
+            Answer) To obtain golden Keys
+        },
+        {
+            "Q":"Q49)"
+            What is the second dlc to be released?
+            A)
+            New robot revolution
+            Secret armory of General Knoxx
+            Mad moxxis underdome riot
+            The zombie island of Dr Ned
+            Answer)Mad Moxxis underdome riot
+        },
+        {
+            "Q":"Q50)"
+            When did borderlands become the game of the year?
+            A)
+            March 24,
+            2015
+            May 24,
+            2015
+            March 24,
+            2016
+            May 24,
+            2016
+            Answer)March 24,
+            2015
+        },
+
+    ],
+    "borderlands2": [
+        {
+            "Q": "Q1)Borderlands is a first-person shooter video game set on a less-than-hospitable alien planet. What is the name of the planet?",
+            "a1": "Pandora",
+            "a2": "Aquator",
+            "a3": "Prometheus",
+            "a4": "Tannis",
+            "c": "Pandora"
+        }
+    ]
+}

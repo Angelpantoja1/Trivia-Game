@@ -1,0 +1,104 @@
+.whiteTxT{
+    color:white;
+}
+.bodyBg{
+    background-color: black;
+}
+.banner{
+    background-color: yellow;
+    color: orange;
+    font-size: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.start{
+    font-size: 100px;
+}
+.options{
+    font-size: 70px;
+}
+.bld{
+    font-size: 50px;
+}
+.bld3{
+    font-size: 40px;
+}
+.bld2{
+    font-size: 42px;
+}
+.cen{
+    display: flex;
+    align-items: flex-end;
+}
+.conWhite{
+    background-color: white;
+}
+.rules{
+    font-size: 75px;
+}
+.instrucText{
+    font-size: 45px;
+}
+.hide{
+    color: black;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+.margin{
+    margin-top: 16%;
+}
+.margin2{
+    margin-top: 37%;
+}
+.margin3{
+    margin-top: 30px;
+}
+.margin4{
+    margin-bottom: 13%;
+}
+.hero{
+    background-image: url('../images/respawn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero2{
+    background-image: url('../images/bld1.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+.hero3{
+    background-image: url('../images/bld2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+.hero4{
+    background-image: url('../images/bld3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+.over{
+    font-size: 120px;
+}
+.bldQuest{
+    background-color: black;
+    opacity: 78%;
+}
+.p{
+    color: yellow;
+    text-shadow: 0 0 3px black;
+}
+.time{
+    font-size: 45px;
+    background-color: white;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textShadow{
+    text-shadow: 0 0 3px #FF0000;
+}
