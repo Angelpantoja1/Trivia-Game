@@ -363,7 +363,7 @@ function loadBld3(info, ) {
     }
 }
 //let triviaTimer = document.getElementById('counter');
-let triviaTimer = 60;
+let triviaTimer = 180;
 //setInterval(checkTime, 1000);
 let answered = false;
 function checkTime() {
