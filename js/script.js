@@ -173,8 +173,8 @@ function questionsRandomizer(q) {
     console.log(triviaQ);
     return triviaQ;
 }
-
-function addText(obj) {
+let cA = "";
+function nextQuestion(obj) {
     let questions = document.getElementById('Q');
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
@@ -187,14 +187,17 @@ function addText(obj) {
     answer2.innerText = obj.a2
     answer3.innerText = obj.a3
     answer4.innerText = obj.a4
-    correct.innerText = obj.c
+    correct.innerText = "The Answer is a Secret";
+    cA = obj.c;
     qCounter++;
+    answered = false;
 }
 
 
 let qCounter = 0;
 
 function loadBld1(info, ) {
+    let score = 0;
     inject.innerHTML = info;
     let triviaData = questionsRandomizer(bl1Data);
 
@@ -204,162 +207,167 @@ function loadBld1(info, ) {
     let answer4 = document.getElementById('a4');
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
+    let totalScore = document.getElementById('score');
     setInterval(checkTime, 1000);
 
-    addText(triviaData[qCounter]);
+    nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-    
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer2.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer3.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer4.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
+    });
+    function checkAnswer(answer){
+        //check if answer is correct
+        answered = true;
+
+
+        if(answer == cA){
+            score++;
+            totalScore.innerText = score;
+            correct.innerText = cA;
+        }
         checkTime();
 
-        setTimeout(() => {
-            diffColor();
-        }, 100);
-    });
-    correct.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-
-        setTimeout(() => {
-            diffColor();
-        }, 100);
-    });
+        setTimeout(()=>{
+            nextQuestion(triviaData[qCounter]);
+            checkAnswer(e.target.innerText);
+        }, 5000)
+    }
 }
-function loadBld2(info) {
+
+function loadBld2(info, ) {
+    let score = 0;
     inject.innerHTML = info;
     let triviaData = questionsRandomizer(bl2Data);
+
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
     let answer3 = document.getElementById('a3');
     let answer4 = document.getElementById('a4');
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
+    let totalScore = document.getElementById('score');
     setInterval(checkTime, 1000);
 
-    triviaTimer = 30;
-
-    addText(triviaData[qCounter]);
+    nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer2.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer3.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer4.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
-    correct.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
+    function checkAnswer(answer){
+        //check if answer is correct
+        answered = true;
+
+
+        if(answer == cA){
+            score++;
+            totalScore.innerText = score;
+            correct.innerText = cA;
+        }
         checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
-    });
+
+        setTimeout(()=>{
+            nextQuestion(triviaData[qCounter]);
+            checkAnswer(e.target.innerText);
+        }, 5000)
+    }
 }
-function loadBld3(info) {
+function loadBld3(info, ) {
+    let score = 0;
     inject.innerHTML = info;
     let triviaData = questionsRandomizer(bl3Data);
+
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
     let answer3 = document.getElementById('a3');
     let answer4 = document.getElementById('a4');
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
+    let totalScore = document.getElementById('score');
     setInterval(checkTime, 1000);
 
-    triviaTimer = 30;
-
-    addText(triviaData[qCounter]);
+    nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer2.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer3.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
     answer4.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
-        checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
+        if(!answered){
+            checkAnswer(e.target.innerText);
+        }
     });
-    correct.addEventListener('click', function (e) {
-        addText(triviaData[qCounter]);
+    function checkAnswer(answer){
+        //check if answer is correct
+        answered = true;
+
+
+        if(answer == cA){
+            score++;
+            totalScore.innerText = score;
+            correct.innerText = cA;
+        }
         checkTime();
-        setTimeout(() => {
-            diffColor();
-        }, 100);
-    });
+
+        setTimeout(()=>{
+            nextQuestion(triviaData[qCounter]);
+            checkAnswer(e.target.innerText);
+        }, 5000)
+    }
 }
 //let triviaTimer = document.getElementById('counter');
-let triviaTimer = 30;
+let triviaTimer = 60;
 //setInterval(checkTime, 1000);
-
+let answered = false;
 function checkTime() {
-    if (triviaTimer > 0) {
+    if (triviaTimer > 0 && answered ==false) {
         counter.innerText = triviaTimer--;
     } else {
         clearInterval(checkTime);
