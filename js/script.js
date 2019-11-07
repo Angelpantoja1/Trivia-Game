@@ -2,29 +2,7 @@
 let inject = document.getElementById('inject');
 
 
-
-
-
-
-// function loadInstructions(){
-//     let xmlhttp = new XMLHttpRequest();
-//     let url = "../site/instructions.html";
-
-//     xmlhttp.onreadystatechange = function() {
-//         if (this.readyState == 4 && this.status == 200) {
-//             let myArr = this.responseText;//JSON.parse(this.responseText);
-//             console.log(myArr);
-
-//             page1Load(myArr);
-//         }
-//     };
-//     //opens connection
-//     xmlhttp.open("GET", url, true);
-
-//     //pulls the request
-//     xmlhttp.send();
-// }
-function injectHtml(url) {
+function injectHtml(url, ) {
     let xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function () {
@@ -166,12 +144,15 @@ function loadLvl(info) {
     let injectBld3 = document.getElementById('injectBld3');
 
     injectBld.addEventListener('click', function () {
-        injectHtml('../site/borderlands.html');
+        injectHtml('../site/borderlands.html', );
+
     });
     injectBld2.addEventListener('click', function () {
+
         injectHtml('../site/borderlands2.html');
     });
     injectBld3.addEventListener('click', function () {
+
         injectHtml('../site/borderlands3.html');
     });
 }
@@ -213,9 +194,10 @@ function addText(obj) {
 
 let qCounter = 0;
 
-function loadBld1(info) {
+function loadBld1(info, ) {
     inject.innerHTML = info;
     let triviaData = questionsRandomizer(bl1Data);
+
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
     let answer3 = document.getElementById('a3');
@@ -228,39 +210,44 @@ function loadBld1(info) {
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+    
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer2.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer3.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer4.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     correct.addEventListener('click', function (e) {
-        setClass("");
         addText(triviaData[qCounter]);
-        /* setTimeout(() => {
+        checkTime();
+
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
 }
 function loadBld2(info) {
@@ -280,39 +267,91 @@ function loadBld2(info) {
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer2.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer3.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     answer4.addEventListener('click', function (e) {
-        setClass("");
-        addText();
-        /* setTimeout(() => {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
     });
     correct.addEventListener('click', function (e) {
-        setClass("");
         addText(triviaData[qCounter]);
-        /* setTimeout(() => {
+        checkTime();
+        setTimeout(() => {
             diffColor();
-        }, 100); */
+        }, 100);
+    });
+}
+function loadBld3(info) {
+    inject.innerHTML = info;
+    let triviaData = questionsRandomizer(bl3Data);
+    let answer1 = document.getElementById('a1');
+    let answer2 = document.getElementById('a2');
+    let answer3 = document.getElementById('a3');
+    let answer4 = document.getElementById('a4');
+    let correct = document.getElementById('c');
+    let counter = document.getElementById('counter');
+    setInterval(checkTime, 1000);
+
+    triviaTimer = 30;
+
+    addText(triviaData[qCounter]);
+    checkTime();
+
+    answer1.addEventListener('click', function (e) {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
+            diffColor();
+        }, 100);
+    });
+    answer2.addEventListener('click', function (e) {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
+            diffColor();
+        }, 100);
+    });
+    answer3.addEventListener('click', function (e) {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
+            diffColor();
+        }, 100);
+    });
+    answer4.addEventListener('click', function (e) {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
+            diffColor();
+        }, 100);
+    });
+    correct.addEventListener('click', function (e) {
+        addText(triviaData[qCounter]);
+        checkTime();
+        setTimeout(() => {
+            diffColor();
+        }, 100);
     });
 }
 //let triviaTimer = document.getElementById('counter');
