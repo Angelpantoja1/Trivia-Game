@@ -105,6 +105,18 @@ function loadTriviaData(url) {
             };
             bl3Data.push(nFO);
         }
+        for (let i = 0; i < info.borderlands4.length; i++) {
+            //create an object for each loop in array
+            let nFO = {
+                "Q": info.borderlands3[i].Q,
+                "a1": info.borderlands3[i].a1,
+                "a2": info.borderlands3[i].a2,
+                "a3": info.borderlands3[i].a3,
+                "a4": info.borderlands3[i].a4,
+                "c": info.borderlands3[i].c
+            };
+            bl4Data.push(nFO);
+        }
     }
 }
 
