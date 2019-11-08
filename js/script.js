@@ -55,6 +55,8 @@ function page2Load(info) {
 let bl1Data = [];
 let bl2Data = [];
 let bl3Data = [];
+let bl4Data = [];
+
 
 function loadTriviaData(url) {
     let xmlhttp = new XMLHttpRequest();
