@@ -3,9 +3,11 @@ let inject = document.getElementById('inject');
 
 
 function injectHtml(url, ) {
+
     let xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function () {
+
         if (this.readyState == 4 && this.status == 200) {
             let myArr = this.responseText;//JSON.parse(this.responseText);
             if (url === '../site/mainMenu.html') {
@@ -22,15 +24,21 @@ function injectHtml(url, ) {
                 loadBld2(myArr);
             } else if (url === '../site/borderlands3.html') {
                 loadBld3(myArr);
+            } else if (url === '../site/gameOver.html') {
+                loadgameOver(myArr);
+            } else if(url === '../site/video.html'){
+                loadVideo(myArr);
             }
 
         }
+
     };
     //opens connection
     xmlhttp.open("GET", url, true);
 
     //pulls the request
     xmlhttp.send();
+
 }
 
 function page1Load(info) {
@@ -83,6 +91,18 @@ function loadTriviaData(url) {
             };
             bl2Data.push(nFO);
         }
+        for (let i = 0; i < info.borderlands3.length; i++) {
+            //create an object for each loop in array
+            let nFO = {
+                "Q": info.borderlands3[i].Q,
+                "a1": info.borderlands3[i].a1,
+                "a2": info.borderlands3[i].a2,
+                "a3": info.borderlands3[i].a3,
+                "a4": info.borderlands3[i].a4,
+                "c": info.borderlands3[i].c
+            };
+            bl3Data.push(nFO);
+        }
     }
 }
 
@@ -104,11 +124,18 @@ function loadMainMenu(info) {
     let injectOptions = document.getElementById('injectOptions');
     injectLvl.addEventListener('click', function (e) {
         //call loadJSON to inject HTML
-        injectHtml('../site/instructions.html');
+        setTimeout(() => {
+            injectHtml('../site/instructions.html');
+        }, 1000)
+        injectHtml('../site/video.html');
+
     });
     injectOptions.addEventListener('click', function (e) {
         //call loadJSON to inject HTML
-        injectHtml('../site/options.html');
+        setTimeout(() => {
+            injectHtml('../site/options.html');
+        }, 5000)
+        injectHtml('../site/video.html');
     });
 }
 
@@ -119,13 +146,20 @@ function loadOptions(info) {
     let backLoad = document.getElementById('backLoad')
 
     funLoad.addEventListener('click', function () {
+        setTimeout(() => {
+
+        }, 5000)
+        injectHtml('../site/gameOver.html');
         injectHtml("http://csh.bz/line/05xp.html");
     });
     exitLoad.addEventListener('click', function () {
         injectHtml("https://www.google.com/");
     });
     backLoad.addEventListener('click', function () {
-        injectHtml("../site/mainMenu.html");
+        setTimeout(() => {
+            injectHtml("../site/mainMenu.html");
+        }, 5000)
+        injectHtml('../site/video.html');
     });
 
 }
@@ -134,7 +168,10 @@ function loadInstructions(info) {
     let ready = document.getElementById('ready');
 
     ready.addEventListener('click', function () {
-        injectHtml('../site/lvlSelect.html');
+        setTimeout(() => {
+            injectHtml('../site/lvlSelect.html');
+        }, 1000)
+        injectHtml('../site/video.html');
     });
 }
 function loadLvl(info) {
@@ -144,16 +181,23 @@ function loadLvl(info) {
     let injectBld3 = document.getElementById('injectBld3');
 
     injectBld.addEventListener('click', function () {
-        injectHtml('../site/borderlands.html', );
+        setTimeout(() => {
+            injectHtml('../site/borderlands.html');
+        }, 1000)
+        injectHtml('../site/video.html');
 
     });
     injectBld2.addEventListener('click', function () {
-
-        injectHtml('../site/borderlands2.html');
+        setTimeout(() => {
+            injectHtml('../site/borderlands2.html');
+        }, 1000)
+        injectHtml('../site/video.html');
     });
     injectBld3.addEventListener('click', function () {
-
-        injectHtml('../site/borderlands3.html');
+        setTimeout(() => {
+            injectHtml('../site/borderlands3.html');
+        }, 1000)
+        injectHtml('../site/video.html');
     });
 }
 
@@ -200,7 +244,6 @@ function loadBld1(info, ) {
     let score = 0;
     inject.innerHTML = info;
     let triviaData = questionsRandomizer(bl1Data);
-
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
     let answer3 = document.getElementById('a3');
@@ -208,47 +251,47 @@ function loadBld1(info, ) {
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
     let totalScore = document.getElementById('score');
-    setInterval(checkTime, 1000);
+    cTime = setInterval(checkTime, 1000);
 
     nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer2.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer3.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer4.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
-    function checkAnswer(answer){
+    function checkAnswer(answer) {
         //check if answer is correct
         answered = true;
 
 
-        if(answer == cA){
+        if (answer == cA) {
             score++;
             totalScore.innerText = score;
             correct.innerText = cA;
         }
         checkTime();
 
-        setTimeout(()=>{
+        setTimeout(() => {
             nextQuestion(triviaData[qCounter]);
             checkAnswer(e.target.innerText);
-        }, 5000)
+        }, 3000)
     }
 }
 
@@ -264,49 +307,50 @@ function loadBld2(info, ) {
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
     let totalScore = document.getElementById('score');
-    setInterval(checkTime, 1000);
+    cTime = setInterval(checkTime, 1000);
 
     nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer2.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer3.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer4.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
-    function checkAnswer(answer){
+    function checkAnswer(answer) {
         //check if answer is correct
         answered = true;
 
 
-        if(answer == cA){
+        if (answer == cA) {
             score++;
             totalScore.innerText = score;
             correct.innerText = cA;
         }
         checkTime();
 
-        setTimeout(()=>{
+        setTimeout(() => {
             nextQuestion(triviaData[qCounter]);
             checkAnswer(e.target.innerText);
-        }, 5000)
+        }, 3000)
     }
 }
+let cTime;
 function loadBld3(info, ) {
     let score = 0;
     inject.innerHTML = info;
@@ -319,59 +363,87 @@ function loadBld3(info, ) {
     let correct = document.getElementById('c');
     let counter = document.getElementById('counter');
     let totalScore = document.getElementById('score');
-    setInterval(checkTime, 1000);
+    cTime = setInterval(checkTime, 1000);
 
     nextQuestion(triviaData[qCounter]);
     checkTime();
 
     answer1.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer2.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer3.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
     answer4.addEventListener('click', function (e) {
-        if(!answered){
+        if (!answered) {
             checkAnswer(e.target.innerText);
         }
     });
-    function checkAnswer(answer){
+    function checkAnswer(answer) {
         //check if answer is correct
         answered = true;
 
 
-        if(answer == cA){
+        if (answer == cA) {
             score++;
             totalScore.innerText = score;
             correct.innerText = cA;
         }
         checkTime();
 
-        setTimeout(()=>{
+        setTimeout(() => {
             nextQuestion(triviaData[qCounter]);
             checkAnswer(e.target.innerText);
-        }, 5000)
+        }, 3000)
     }
 }
 //let triviaTimer = document.getElementById('counter');
 let triviaTimer = 180;
 //setInterval(checkTime, 1000);
 let answered = false;
+let myModal = document.getElementById('myModal')
+let span = document.getElementsByClassName("close")[0];
+
 function checkTime() {
-    if (triviaTimer > 0 && answered ==false) {
+    if (triviaTimer !=0 && answered == false) {
         counter.innerText = triviaTimer--;
-    } else {
-        clearInterval(checkTime);
+    } else if(triviaTimer===0){
+        injectHtml('../site/gameOver.html');
     }
 }
+
+function loadVideo(info){
+    inject.innerHTML = info;
+}
+
+function loadgameOver(info) {
+    inject.innerHTML = info;
+    let respawn = document.getElementById('respawn');
+
+    respawn.addEventListener('click', function (e) {
+        setTimeout(() => {
+            injectHtml('../site/lvlSelect.html');
+            reset();
+        }, 1000)
+        injectHtml('../site/video.html');
+    });
+}
+
+let score =0;
+function reset(){
+    clearInterval(cTime);
+    triviaTimer = 180;
+    score = 0;
+}
+
 injectHtml("../site/mainMenu.html");
 loadTriviaData('../Data/data.json');

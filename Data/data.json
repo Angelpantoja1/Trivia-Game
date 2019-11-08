@@ -53,7 +53,7 @@
             "a1":"Destroyed by nuclear weapons",
             "a2":"Collapsed into the Underdome area",
             "a3":"Nothing - there is no 'Old Haven'",
-            "a4":"occupied by the Crimson Lance",
+            "a4":"Occupied by the Crimson Lance",
             "c":"Occupied by the Crimson Lance"
         },
         {
@@ -66,7 +66,7 @@
         },
         {
             "Q": "The object of 'Borderlands' is to find the legendary 'Vault' thought to hold a treasure trove of alien technology. The players eventually find the Vault, but what is inside?",
-            "a1":"A monster",
+            "a1":"A Monster",
             "a2":"A wormhole to the past",
             "a3": "Nothing",
             "a4":"A single mega-bomb",
@@ -102,7 +102,7 @@
             "a2":"Dr. Zed",
             "a3":"Mordecai",
             "a4":"Brick",
-            "c":"scooter"
+            "c":"Scooter"
         },
         {
             "Q": "In the game, there are some guns that don't require ammo, but instead, have to recharge. What type of guns are these?",
@@ -177,10 +177,10 @@
             "c":"Marcus Kincaid, Dr Zed and Crazy Earl"
         },
         {
-            "Q": "who is the first voice you hear?",
+            "Q": "Who is the first voice you hear?",
             "a1":"Zero",
             "a2":"Rhys",
-            "a3":"Marcus Kincaid",
+            "a3":"Marcus",
             "a4":"Fiona",
             "c":"Marcus"
         },
@@ -254,7 +254,7 @@
             "a2":"Dr. Zed",
             "a3":"Dr. Fred",
             "a4":"Dr. Ed",
-            "c":"Dr.Zed"
+            "c":"Dr. Zed"
         },
         {
             "Q": "Did I promise you a show, or didn't I? Who loves you, and who do you love?'This character is the hostess of The Underdome, and interacts directly with the players in another add-on, giving the players missions, such as to kill her ex-husband. What's her name?",
@@ -350,7 +350,7 @@
             "a2":"Pistol",
             "a3":"Nothing",
             "a4":"Grenade",
-            "c":"nothing"
+            "c":"Nothing"
         },
         {
             "Q": "How many characters are there to choose from?",
@@ -388,17 +388,17 @@
             "Q": "What is the second dlc to be released?",
             "a1":"New robot revolution",
             "a2":"Secret armory of General Knoxx",
-            "a3":"Mad moxxis underdome riot",
+            "a3":"Mad Moxxis underdome riot",
             "a4":"The zombie island of Dr Ned",
             "c":"Mad Moxxis underdome riot"
         },
         {
             "Q": "When did borderlands become the game of the year?",
-            "a1":"March 24,2015",
-            "a2":"May, 24 2015",
-            "a3":"March, 24 2016",
-            "a4":"May, 24 2016",
-            "c":"March, 24 2015"
+            "a1":"March 24, 2015",
+            "a2":"May 24, 2015",
+            "a3":"March 24, 2016",
+            "a4":"May 24, 2016",
+            "c":"March 24, 2015"
             
         }
     ],
@@ -483,7 +483,7 @@
             "a2": "makes him invisible",
             "a3": "destroys his memory",
             "a4": "turns him off temporarily",
-            "c":"Makes him invisible"
+            "c":"makes him invisible"
         },
         {
             "Q":"What is Claptrap's biggest weakness?",
@@ -491,7 +491,7 @@
             "a2":"stairs",
             "a3":"acid",
             "a4":"Bullets",
-            "c":"Stairs"
+            "c":"stairs"
         },
         {
             "Q":"Who is the First boss you fight?",
@@ -499,7 +499,7 @@
             "a2":"The bunker",
             "a3":"Knuckledragger",
             "a4":"Captain Flint",
-            "c":"KNuckledragger"
+            "c":"Knuckledragger"
         },
         {
             "Q":"What does knuckledragger take from claptrap?",
@@ -507,7 +507,7 @@
             "a2":"His Leg",
             "a3":"His Money",
             "a4":"His eye",
-            "c":"His Eye"
+            "c":"His eye"
         },
         {
             "Q":"What is Buttstallion made of?",
@@ -685,7 +685,7 @@
             "a2": "Convoy",
             "a3": "Mad Max Beyond Thunderdome",
             "a4": "Braveheart",
-            "c":"Mad Max Beyond T"
+            "c":"Mad Max Beyond Thunderdome"
         },
         {
             "Q":"Where is Maya from?",
@@ -749,7 +749,7 @@
             "a2": "$620,000,000,000",
             "a3": "$700,000,000,000",
             "a4": "$600,000,000,000",
-            "c":"720,000,000,000"
+            "c":  "$720,000,000,000"
         },
         {
             "Q":"Maya has a skin which is a reference to the film 'Shaun of the Dead'. What is the name of this skin?",
@@ -809,5 +809,408 @@
             "a4":"Pyro Pete",
             "c":"Hunter Hellquist"
         }
+    ],
+    "borderlands3": [
+        {
+            "Q":"When was borderlands 3 Released?",
+            "a1":"September 11, 2019",
+            "a2":"September 12, 2019",
+            "a3":"September 13, 2019",
+            "a4":"September 13, 2018",
+            "c":"September 13, 2019"
+        },
+        {
+            "Q":"Who isnt a playable Character in borderlands 3?",
+            "a1":"Zane",
+            "a2":"Amara",
+            "a3":"Fl4k",
+            "a4":"CL4P-TP",
+            "c":"CL4P-TP"
+        },
+        {
+            "Q":"How many planets are there in Borderlands 3?",
+            "a1":"10",
+            "a2":"2",
+            "a3":"4",
+            "a4":"7",
+            "c":"4"
+        },
+        {
+            "Q":"What is the planet you start on Borderlands 3?",
+            "a1":"Pandora",
+            "a2":"Promethea",
+            "a3":"Eden-6",
+            "a4":"Athenas",
+            "c":"Pandora"
+        },
+        {
+            "Q":"What is the max amount of items are you able to hold in your backpack after upgrading?",
+            "a1":"25",
+            "a2":"75",
+            "a3":"100",
+            "a4":"50",
+            "c":"50"
+        },
+        {
+            "Q":"What is the max amount of items are you able to hold in your bank after upgrading?",
+            "a1":"25",
+            "a2":"75",
+            "a3":"100",
+            "a4":"50",
+            "c":"50"
+        },
+        {
+            "Q":"What Character from borderlands 2 is now dead in borderlands 3 that wasnt already dead?",
+            "a1":"Roland",
+            "a2":"Angel",
+            "a3":"Lilith",
+            "a4":"Scooter",
+            "c":"Scooter"
+        },
+        {
+            "Q":"What is the name of the man that only wears underwear?",
+            "a1":"Van",
+            "a2":"Tina",
+            "a3":"Rhys",
+            "a4":"Zero",
+            "c":"Van"
+        },
+        {
+            "Q":"Who is Van",
+            "a1":"Leader of the moon crushers",
+            "a2":"Leader of the sun crushers",
+            "a3":"Leader of the crushers",
+            "a4":"Leader of the crimson raiders",
+            "c":"Leader of the sun crushers"
+        },
+        {
+            "Q":"What is Van also known as?",
+            "a1":"The Magic Man",
+            "a2":"The Money Man",
+            "a3":"Ricky Bobby",
+            "a4":"The Man",
+            "c":"The Money Man"
+        },
+        {
+            "Q":"Which vault hunter has a pet?",
+            "a1":"Zane",
+            "a2":"Amara",
+            "a3":"Fl4k",
+            "a4":"Moze",
+            "c":"Fl4k"
+        },
+        {
+            "Q":"What is the name of the first vault hunter?",
+            "a1":"Marcus",
+            "a2":"Roland",
+            "a3":"Typhon De Leon",
+            "a4":"Handsome Jack",
+            "c":"Typhon De Leon"
+        },
+        {
+            "Q":"Who are the main Antagonist in the game?",
+            "a1":"The Calypso Twins",
+            "a2":"Katagawa Ball",
+            "a3":"Mouthpiece",
+            "a4":"The Rampager",
+            "c":"The Calypso Twins"
+        },
+        {
+            "Q":"What is the name of the ship?",
+            "a1":"The Transporter",
+            "a2":"The Telepoter",
+            "a3":"Fast Travel",
+            "a4":"Sanctuary 3",
+            "c":"Sanctuary 3"
+        },
+        {
+            "Q":"How much do you have to tip Moxxi to recieve trinket?",
+            "a1":"$10,000",
+            "a2":"$30,000",
+            "a3":"$40,000",
+            "a4":"$100,000",
+            "c":"$10,000"
+        },
+        {
+            "Q":"Which one of these guns came from borderlands 2?",
+            "a1":"infinti",
+            "a2":"smart gun xxl",
+            "a3":"quadomizer",
+            "a4":"Double-Penetrating Occulist",
+            "c":"infinti"
+        },
+        {
+            "Q":"What is the new creature in the game?",
+            "a1":"Jabber",
+            "a2":"Skag",
+            "a3":"Spiderant",
+            "a4":"Rak",
+            "c":"Jabber"
+        },
+        {
+            "Q":"Who is the first big boss you fight?",
+            "a1":"Mouthpiece",
+            "a2":"Shiv",
+            "a3":"Gigamind",
+            "a4":"Captain Traunt",
+            "c":"Shiv"
+        },
+        {
+            "Q":"What type of guns have shields",
+            "a1":"Tedior",
+            "a2":"Jakobs",
+            "a3":"Maliwan",
+            "a4":"Atlas",
+            "c":"Tedior"
+        },
+        {
+            "Q":"How many types of vehicles are there?",
+            "a1":"2",
+            "a2":"1",
+            "a3":"4",
+            "a4":"3",
+            "c":"3"
+        },
+        {
+            "Q":"Which one of these is not a vehicle?",
+            "a1":"Outrunner",
+            "a2":"Technical",
+            "a3":"Cyclone",
+            "a4":"Sandskift",
+            "c":"Sandskift"
+        },
+        {
+            "Q":"What planet do you fight Tyreen?",
+            "a1":"Pandora",
+            "a2":"Athenas",
+            "a3":"Eden-6",
+            "a4":"Elpis",
+            "c":"Pandora"
+        },
+        {
+            "Q":"Which one of these enemies is the roundest?",
+            "a1":"Spiderant",
+            "a2":"Jabber",
+            "a3":"Rak",
+            "a4":"Skag",
+            "c":"Spiderant"
+        },
+        {
+            "Q":"Who has a caffiene addiction?",
+            "a1":"Ace Barron",
+            "a2":"Van",
+            "a3":"Lorieli",
+            "a4":"Rhys",
+            "c":"Rhys"
+        },
+        {
+            "Q":"What is the name of the doctor that raps?",
+            "a1":"Ace Barron",
+            "a2":"Van",
+            "a3":"Dr Zed",
+            "a4":"Rhys",
+            "c":"Ace Barron"
+        },
+        {
+            "Q":"What is a new feature when viewing the map?",
+            "a1":"Color",
+            "a2":"3D scaling",
+            "a3":"Bigger",
+            "a4":"Movable",
+            "c":"3D scaling"
+        },
+        {
+            "Q":"Which one is not a boss you fight?",
+            "a1":"Warden",
+            "a2":"GenIVIV",
+            "a3":"The Graveward",
+            "a4":"Terramorphous",
+            "c":"Terramorphous"
+        },
+        {
+            "Q":"What gun does does Troy Calypso drop?",
+            "a1":"SkeksSil",
+            "a2":"Double-Penetrating Occulist",
+            "a3":"Kings Call",
+            "a4":"Queens Call",
+            "c":"Double-Penetrating Occulist"
+        },
+        {
+            "Q":"Who Drops the Freeman?",
+            "a1":"The Graveward",
+            "a2":"Aurelia",
+            "a3":"Gigamind",
+            "a4":"Warden",
+            "c":"Warden"
+        },
+        {
+            "Q":"What new feature did they add to the Vault Hunters?",
+            "a1":"Crouch",
+            "a2":"Sprint",
+            "a3":"Mantle",
+            "a4":"Float",
+            "c":"Mantle"
+        },
+        {
+            "Q":"What new feature did they add to the weapons?",
+            "a1":"Alternate-fire modes",
+            "a2":"Fire Ammo",
+            "a3":"Infinate Ammo",
+            "a4":"Homing Ammo",
+            "c":"Alternate-fire modes"
+        },
+        {
+            "Q":"What new feature did they add to the NPC's?",
+            "a1":"They can revive you",
+            "a2":"They can fight",
+            "a3":"You can kill them",
+            "a4":"They insult you if you die",
+            "c":"They can revive you"
+        },
+        {
+            "Q":"What is a new feature they added to the bosses?",
+            "a1":"They Spawn other enemies",
+            "a2":"They can be revived",
+            "a3":"They are stronger",
+            "a4":"They have multiple stages",
+            "c":"They have multiple stages"
+        },
+        {
+            "Q":"What did they add to Sanctuary 3?",
+            "a1":"A Lost Loot Machine",
+            "a2":"Colors",
+            "a3":"Decorations",
+            "a4":"Another Bank",
+            "c":"A Lost Loot Machine"
+        },
+        {
+            "Q":"What is the new system implemented into this game?",
+            "a1":"Gestures",
+            "a2":"Tracker",
+            "a3":"Ping",
+            "a4":"Location share",
+            "c":"Ping"
+        },
+        {
+            "Q":"Who isnt a NPC?",
+            "a1":"Balex",
+            "a2":"Clay",
+            "a3":"Lilith",
+            "a4":"Fl4k",
+            "c":"Fl4k"
+        },
+        {
+            "Q":"How many NPC's are they in the Storyline?",
+            "a1":"19",
+            "a2":"20",
+            "a3":"18",
+            "a4":"17",
+            "c":"19"
+        },
+        {
+            "Q":"Who is the owner of the Jakobs ",
+            "a1":"Wainwright Jakobs",
+            "a2":"Jakob Wensel",
+            "a3":"Jakob Zigenis",
+            "a4":"Jakob Wainwright",
+            "c":"Wainwright Jakobs"
+        },
+        {
+            "Q":"Who Made borderlands 3?",
+            "a1":"Bungie",
+            "a2":"A CodeStack Student",
+            "a3":"Gearbox",
+            "a4":"Activision",
+            "c":"Gearbox"
+        },
+        {
+            "Q":"Which game did gear box consider 'The Big One'?",
+            "a1":"Borderlands",
+            "a2":"Borderlands 2",
+            "a3":"Borderlands 3",
+            "a4":"The Pre-Sequal",
+            "c":"Borderlands 3"
+        },
+        {
+            "Q":"How many years was borderlands 3 in development?",
+            "a1":"5 Years",
+            "a2":"7 Years",
+            "a3":"4 Years",
+            "a4":"6 Years",
+            "c":"5 Years"
+        },
+        {
+            "Q":"What Character does Ice T voice?",
+            "a1":"Fl4k",
+            "a2":"Balex",
+            "a3":"Ball",
+            "a4":"Ballex",
+            "c":"Balex"
+        },
+        {
+            "Q":"Tyreen is also...?",
+            "a1":"An enemy",
+            "a2":"A siren",
+            "a3":"A solder",
+            "a4":"A good character",
+            "c":"A siren"
+        },
+        {
+            "Q":"Who isnt a siren?",
+            "a1":"Angel",
+            "a2":"Lilith",
+            "a3":"Amara",
+            "a4":"Tina",
+            "c":"Tina"
+        },
+        {
+            "Q":"How many sirens are there?",
+            "a1":"5",
+            "a2":"6",
+            "a3":"7",
+            "a4":"8",
+            "c":"6"
+        },
+        {
+            "Q":"What fuels a siren?",
+            "a1":"Money",
+            "a2":"Eridium",
+            "a3":"Seriph Crystals",
+            "a4":"Loot-a-gram",
+            "c":"Eridium"
+        },
+        {
+            "Q":"Who is the only male able to use siren powers?",
+            "a1":"Crazy Earl",
+            "a2":"Brick",
+            "a3":"Marcus",
+            "a4":"Troy",
+            "c":"Troy"
+        },
+        {
+            "Q":"Which Vault Hunter Plays themself?",
+            "a1":"Moze",
+            "a2":"Fl4k",
+            "a3":"Amara",
+            "a4":"Zane",
+            "c":"Zane"
+        },
+        {
+            "Q":"What counrty is Amara from?",
+            "a1":"Mexico",
+            "a2":"India",
+            "a3":"USA",
+            "a4":"Spain",
+            "c":"India"
+        },
+        {
+            "Q":"What kind of weapons can you throught to do damage?",
+            "a1":"Tedior",
+            "a2":"Jakobs",
+            "a3":"Maliwan",
+            "a4":"Atlas",
+            "c":"Tedior"
+        }
     ]
 }
+        
