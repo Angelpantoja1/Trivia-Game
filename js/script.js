@@ -124,12 +124,12 @@ function loadTriviaData(url) {
         for (let i = 0; i < info.borderlands4.length; i++) {
             //create an object for each loop in array
             let nFO = {
-                "Q": info.borderlands4[i].Q,
-                "a1": info.borderlands4[i].a1,
-                "a2": info.borderlands4[i].a2,
-                "a3": info.borderlands4[i].a3,
-                "a4": info.borderlands4[i].a4,
-                "c": info.borderlands4[i].c
+                "Q": info.borderlands3[i].Q,
+                "a1": info.borderlands3[i].c,
+                "a2": info.borderlands3[i].c,
+                "a3": info.borderlands3[i].c,
+                "a4": info.borderlands3[i].c,
+                "c": info.borderlands3[i].c
             };
             bl4Data.push(nFO);
         }
