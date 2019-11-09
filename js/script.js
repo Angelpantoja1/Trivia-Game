@@ -1,12 +1,17 @@
 //Retrieve html elements
 let inject = document.getElementById('inject');
-
+let funMode = false;
+let difficulty = 1;
 
 function injectHtml(url, ) {
 
     let xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function () {
+
+        console.log(url);
+        console.log(funMode);
+        console.log(difficulty);
 
         if (this.readyState == 4 && this.status == 200) {
             let myArr = this.responseText;//JSON.parse(this.responseText);
@@ -18,18 +23,29 @@ function injectHtml(url, ) {
                 loadInstructions(myArr);
             } else if (url === '../site/lvlSelect.html') {
                 loadLvl(myArr);
-            } else if (url === '../site/borderlands.html') {
-                loadBld1(myArr);
-            } else if (url === '../site/borderlands2.html') {
-                loadBld2(myArr);
-            } else if (url === '../site/borderlands3.html') {
-                loadBld3(myArr);
             } else if (url === '../site/gameOver.html') {
                 loadgameOver(myArr);
             } else if(url === '../site/video.html'){
                 loadVideo(myArr);
             }
-
+            else if (url === '../site/borderlands.html' && funMode === false && difficulty === 1){
+                loadBorderlandsTrivia(myArr, bl1Data, "hero2", "Borderlands Trivia");
+            } 
+            else if (url === '../site/borderlands.html' && funMode === false && difficulty === 2){
+                loadBorderlandsTrivia(myArr, bl2Data, "hero3", "Borderlands 2 Trivia");
+            }
+            else if (url === '../site/borderlands.html' && funMode === false && difficulty === 3){
+                loadBorderlandsTrivia(myArr, bl3Data, "hero4", "Borderlands 3 Trivia");
+            }
+            else if (url === '../site/borderlands.html' && funMode === true && difficulty === 1){
+                loadBorderlandsTrivia(myArr, bl4Data, "hero2", "Borderlands Trivia");
+            }
+            else if (url === '../site/borderlands.html' && funMode === true && difficulty === 2){
+                loadBorderlandsTrivia(myArr, bl4Data, "hero3", "Borderlands 2 Trivia");
+            }
+            else if (url === '../site/borderlands.html' && funMode === true && difficulty === 3){
+                loadBorderlandsTrivia(myArr, bl4Data, "hero4", "Borderlands 3 Trivia");
+            }
         }
 
     };
@@ -108,12 +124,12 @@ function loadTriviaData(url) {
         for (let i = 0; i < info.borderlands4.length; i++) {
             //create an object for each loop in array
             let nFO = {
-                "Q": info.borderlands3[i].Q,
-                "a1": info.borderlands3[i].a1,
-                "a2": info.borderlands3[i].a2,
-                "a3": info.borderlands3[i].a3,
-                "a4": info.borderlands3[i].a4,
-                "c": info.borderlands3[i].c
+                "Q": info.borderlands4[i].Q,
+                "a1": info.borderlands4[i].a1,
+                "a2": info.borderlands4[i].a2,
+                "a3": info.borderlands4[i].a3,
+                "a4": info.borderlands4[i].a4,
+                "c": info.borderlands4[i].c
             };
             bl4Data.push(nFO);
         }
@@ -160,11 +176,11 @@ function loadOptions(info) {
     let backLoad = document.getElementById('backLoad')
 
     funLoad.addEventListener('click', function () {
+        funMode = true;
         setTimeout(() => {
-
+            injectHtml("../site/mainMenu.html");
         }, 5000)
-        injectHtml('../site/gameOver.html');
-        injectHtml("http://csh.bz/line/05xp.html");
+        injectHtml('../site/video.html');
     });
     exitLoad.addEventListener('click', function () {
         injectHtml("https://www.google.com/");
@@ -195,6 +211,7 @@ function loadLvl(info) {
     let injectBld3 = document.getElementById('injectBld3');
 
     injectBld.addEventListener('click', function () {
+        difficulty = 1;
         setTimeout(() => {
             injectHtml('../site/borderlands.html');
         }, 1000)
@@ -202,14 +219,16 @@ function loadLvl(info) {
 
     });
     injectBld2.addEventListener('click', function () {
+        difficulty = 2;
         setTimeout(() => {
-            injectHtml('../site/borderlands2.html');
+            injectHtml('../site/borderlands.html');
         }, 1000)
         injectHtml('../site/video.html');
     });
     injectBld3.addEventListener('click', function () {
+        difficulty = 3;
         setTimeout(() => {
-            injectHtml('../site/borderlands3.html');
+            injectHtml('../site/borderlands.html');
         }, 1000)
         injectHtml('../site/video.html');
     });
@@ -254,10 +273,15 @@ function nextQuestion(obj) {
 
 let qCounter = 0;
 
-function loadBld1(info, ) {
-    let score = 0;
+function loadBorderlandsTrivia(info, questions, bgString, titleString) {
     inject.innerHTML = info;
-    let triviaData = questionsRandomizer(bl1Data);
+    let hero = document.getElementById('hero');
+    let title = document.getElementById('title');
+    hero.className = bgString;
+    title.innerText = titleString;
+
+    let score = 0;
+    let triviaData = questionsRandomizer(questions);
     let answer1 = document.getElementById('a1');
     let answer2 = document.getElementById('a2');
     let answer3 = document.getElementById('a3');
